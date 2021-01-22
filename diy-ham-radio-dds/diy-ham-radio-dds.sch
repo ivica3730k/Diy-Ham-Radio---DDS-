@@ -2175,4 +2175,5 @@ Wire Wire Line
 	3400 3250 3400 3550
 Connection ~ 3400 3550
 NoConn ~ 4200 2050
+NoConn ~ 4350 1450
 $EndSCHEMATC
