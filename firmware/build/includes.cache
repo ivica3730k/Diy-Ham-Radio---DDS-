@@ -1,0 +1,32 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/home/ivica/Programs/arduino-1.8.12/hardware/arduino/avr/cores/arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/home/ivica/Programs/arduino-1.8.12/hardware/arduino/avr/variants/standard"
+  },
+  {
+    "Sourcefile": "/home/ivica/PCB/Diy Ham Radio - DDS /firmware/build/sketch/firmware.ino.cpp",
+    "Include": "LiquidCrystal.h",
+    "Includepath": "/home/ivica/Programs/arduino-1.8.12/libraries/LiquidCrystal/src"
+  },
+  {
+    "Sourcefile": "/home/ivica/PCB/Diy Ham Radio - DDS /firmware/build/sketch/firmware.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/ivica/PCB/Diy Ham Radio - DDS /firmware/build/sketch/ham-radio-dds-board.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/ivica/Programs/arduino-1.8.12/libraries/LiquidCrystal/src/LiquidCrystal.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
