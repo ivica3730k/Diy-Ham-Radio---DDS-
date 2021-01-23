@@ -687,7 +687,7 @@ U 1 1 6011FFFF
 P 5500 4450
 F 0 "R6" H 5559 4496 50  0000 L CNN
 F 1 "220R 1/8W" H 5559 4405 50  0000 L CNN
-F 2 "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder" H 5500 4450 50  0001 C CNN
+F 2 "Resistor_SMD:R_01005_0402Metric" H 5500 4450 50  0001 C CNN
 F 3 "~" H 5500 4450 50  0001 C CNN
 	1    5500 4450
 	1    0    0    -1  
@@ -791,7 +791,7 @@ U 1 1 60092D32
 P 3050 2750
 F 0 "R2" V 3246 2750 50  0000 C CNN
 F 1 "1k" V 3155 2750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 3050 2750 50  0001 C CNN
+F 2 "Resistor_SMD:R_01005_0402Metric" H 3050 2750 50  0001 C CNN
 F 3 "~" H 3050 2750 50  0001 C CNN
 	1    3050 2750
 	0    -1   -1   0   
@@ -1742,21 +1742,21 @@ Q8
 NoConn ~ 3600 7550
 NoConn ~ 3000 7450
 NoConn ~ 3000 7650
-Text GLabel 9950 3950 0    50   Input ~ 0
+Text GLabel 9500 3900 0    50   Input ~ 0
 VCC
-Text GLabel 9950 4050 0    50   Input ~ 0
+Text GLabel 9500 4000 0    50   Input ~ 0
 GND
-Text GLabel 9950 4150 0    50   Input ~ 0
-POT1_A
 Text GLabel 9950 4250 0    50   Input ~ 0
-POT1_B
+POT1_A
 Text GLabel 9950 4350 0    50   Input ~ 0
-POT1_C
+POT1_B
 Text GLabel 9950 4450 0    50   Input ~ 0
+POT1_C
+Text GLabel 9950 3950 0    50   Input ~ 0
 POT2_A
-Text GLabel 9950 4550 0    50   Input ~ 0
+Text GLabel 9950 4050 0    50   Input ~ 0
 POT2_B
-Text GLabel 9950 4650 0    50   Input ~ 0
+Text GLabel 9950 4150 0    50   Input ~ 0
 POT2_C
 $Comp
 L Connector:Screw_Terminal_01x10 J5
@@ -1812,7 +1812,7 @@ U 1 1 605767D1
 P 4400 3700
 F 0 "R5" V 4296 3700 50  0000 C CNN
 F 1 "100R" V 4205 3700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 4400 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_01005_0402Metric" H 4400 3700 50  0001 C CNN
 F 3 "~" H 4400 3700 50  0001 C CNN
 	1    4400 3700
 	0    -1   -1   0   
@@ -1851,9 +1851,9 @@ Text GLabel 4500 2950 2    50   Input ~ 0
 PTT
 Text GLabel 4500 3700 2    50   Input ~ 0
 ALARM
-Text GLabel 9950 4750 0    50   Input ~ 0
+Text GLabel 9950 4550 0    50   Input ~ 0
 PTT
-Text GLabel 9950 4850 0    50   Input ~ 0
+Text GLabel 9950 4650 0    50   Input ~ 0
 ALARM
 Text GLabel 5800 6350 2    50   Input ~ 0
 Q1_NPN
@@ -2175,4 +2175,5 @@ Wire Wire Line
 	3400 3250 3400 3550
 Connection ~ 3400 3550
 NoConn ~ 4200 2050
+NoConn ~ 4350 1450
 $EndSCHEMATC
