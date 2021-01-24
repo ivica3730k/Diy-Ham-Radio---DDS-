@@ -1,8 +1,4 @@
-#include <Arduino.h>
 #include "ham-radio-dds-board.h"
-// initialize the library by associating any needed LCD interface pin
-// with the arduino pin number it is connected to
-//ShiftRegister74HC595<1> sr(PD5, PD7, PD6);
 
 HamRadioDDSBoard board;
 
