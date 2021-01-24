@@ -1855,17 +1855,17 @@ Text GLabel 9950 4550 0    50   Input ~ 0
 PTT
 Text GLabel 9950 4650 0    50   Input ~ 0
 ALARM
-Text GLabel 5800 6350 2    50   Input ~ 0
+Text GLabel 5800 6650 2    50   Input ~ 0
 Q1_NPN
 Text GLabel 5800 6450 2    50   Input ~ 0
 Q2_NPN
 Text GLabel 5800 6550 2    50   Input ~ 0
 Q3_NPN
-Text GLabel 5800 6650 2    50   Input ~ 0
+Text GLabel 5800 6850 2    50   Input ~ 0
 Q4_NPN
 Text GLabel 5800 6750 2    50   Input ~ 0
 Q5_NPN
-Text GLabel 5800 6850 2    50   Input ~ 0
+Text GLabel 5800 6350 2    50   Input ~ 0
 Q6_NPN
 Text GLabel 5800 6950 2    50   Input ~ 0
 Q7_NPN
