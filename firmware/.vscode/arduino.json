@@ -1,5 +1,6 @@
 {
     "board": "arduino:avr:uno",
     "sketch": "firmware.ino",
-    "output": "./build"
+    "output": "./build",
+    "port": "/dev/ttyUSB0"
 }

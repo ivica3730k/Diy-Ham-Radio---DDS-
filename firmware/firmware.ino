@@ -1,28 +1,36 @@
+#include <Arduino.h>
 #include "ham-radio-dds-board.h"
+#include <Button.h>
+Button button1(10);
+// initialize the library by associating any needed LCD interface pin
+// with the arduino pin number it is connected to
+//ShiftRegister74HC595<1> sr(PD5, PD7, PD6);
 
 HamRadioDDSBoard board;
 
-
 void setup()
 {
-    board.lcd->print("Hello,world");
-    delay(10);
-
+    Serial.begin(9600);
+    button1.begin();
 }
 
 void loop()
 {
-    // set the cursor to column 0, line 1
-    // (note: line 1 is the second row, since counting begins with 0):
-    board.lcd->setCursor(0, 1);
-    // print the number of seconds since reset:
-    board.lcd->print(millis());
-    //digitalWrite(PD5, LOW);
-    //digitalWrite(PD6, LOW);
-    //digitalWrite(PD7, LOW);
-    //sr.setAllHigh();
-    delay(100);
-    //sr.setAllLow();
-    delay(100);
+    if (button1.pressed()){
+        Serial.println("Button 1 pressed");
+    }
+    if (button1.released()){
+        Serial.println("Button 2 released");
+
+    }
+        for (int i = 1; i <= 8; i++)
+        {
+            board.set_output(i, HIGH);
+        }
+        for (int i = 1; i <= 8; i++)
+        {
+            board.set_output(i, LOW);
+        }
+    
 
 }
